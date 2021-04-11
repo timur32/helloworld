@@ -22,7 +22,7 @@ pipeline {
             steps {
                checkout scm: [$class: "GitSCM",
                userRemoteConfigs: [[url: "git@github.com:timur32/helloworld.git", credentialsId: "mygit" ]],
-               branches: [[name: "dev"]]]
+               branches: [[name: "main"]]]
             }
         }
         stage('2-build docker') {
