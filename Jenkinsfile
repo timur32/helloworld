@@ -54,8 +54,7 @@ pipeline {
                         ssh ${host} '
                         hostname
                         docker-compose up --force-recreate -d
-                        '
-                        """
+                        ' """
                     }
                 }
             }
