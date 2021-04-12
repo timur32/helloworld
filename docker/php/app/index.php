@@ -12,7 +12,7 @@
   </style>
  <body>
   <div align="center" id="layer1">
-    <h2><?php echo '<p>Hello world 2 !</p>'; ?></h2>
+    <h2><?php echo '<p>Hello exam!</p>'; ?></h2>
   </div>
 
  </body>
